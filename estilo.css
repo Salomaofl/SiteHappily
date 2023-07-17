@@ -120,3 +120,11 @@ text-align: center;
     color: rgb(255, 255, 255);
     font-size: large;
 }
+
+@media screen and(max-width:788px) {
+.diferencial-single{
+ width:100% ;
+flex-direction: column;
+
+}   
+}
