@@ -43,7 +43,7 @@ transition: 0.4s;
 }
 
 .menu a:hover{
-color: #007bff;
+color: #2e4b77;
 }
 
 .menu .btn-menu{
@@ -82,7 +82,7 @@ text-align: center;
 
     color: #6b888b;
     font-size: 19px;
-    margin: 10px 0;
+    margin: 10px ;
 }
 
 .main_cta button{
@@ -99,32 +99,58 @@ text-align: center;
 
 .diferenciais{
     display: flex;
-    margin: 70px 0;
+    margin: 80px 0;
     width: 100%;
     text-align: center;
 
 }
 
-.diferencial-single{
-    border-radius: 10px;
-    background-color:#774f3b;
-    width: 23%;
-    margin-right: 2%;
-    display: flex;
+/* .diferencial-single{
+    border-radius: 10px; 
+    background-color:#ff6600;  
+    width: 24%;
+    margin-right: 2%; 
+    display: flex; 
     height: 200px;
+    text-align: center; 
+}  
+
+
+  
+
+/*  */
+
+
+.card {
+    width: 5cm;
+    height: 5cm; 
+    overflow: hidden; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 24%;
+    margin-right: 2%; 
+    display: flex;  
+    height: 200px;
+    text-align: center;  
+} 
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+  }
+  
+  .card-description {
+    padding: 9px;
     text-align: center;
-}
-
-.diferencial-single h2{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: large;
-}
-
-@media screen and(max-width:788px) {
-.diferencial-single{
- width:100% ;
-flex-direction: column;
-
-}   
-}
+  }
+  
+ 
+  
+  .card-description p {
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 0;
+    
+  }
