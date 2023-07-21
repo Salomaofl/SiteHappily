@@ -150,7 +150,7 @@ text-align: center;
   }
 
   .menu a {
-    display: block; /* Tornar os links do menu em blocos para empilhá-los verticalmente */
+    display: flex; /* Tornar os links do menu em blocos para empilhá-los verticalmente */
     margin: 10px 0;
   }
 
