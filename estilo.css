@@ -99,9 +99,10 @@ text-align: center;
 
 .diferenciais{
     display: flex;
-    margin: 80px 0;
-    width: 100%;
     text-align: center;
+    margin: 100px 1;
+    width: 100%;
+    
 
 }
 
@@ -113,31 +114,25 @@ text-align: center;
     display: flex; 
     height: 200px;
     text-align: center; 
-}  
+}   */
 
-
-  
-
-/*  */
 
 
 .card {
-    width: 5cm;
-    height: 5cm; 
-    overflow: hidden; 
-    flex-direction: column; 
+    overflow:hidden;  
     align-items: center; 
-    justify-content: flex-start; 
-    width: 24%;
-    margin-right: 2%; 
-    display: flex;  
-    height: 200px;
+    width: 30%;
+    margin-right: 2%;
+    height: 400px;
     text-align: center;  
+    padding: auto;
 } 
   
   .card img {
     width: 100%;
     height: auto;
+    
+    
     /* object-fit: cover; */
   }
   
@@ -149,7 +144,7 @@ text-align: center;
  
   
   .card-description p {
-    font-size: 15px;
+    font-size: 17px;
     color: #666666;
     margin-bottom: 0;
     
