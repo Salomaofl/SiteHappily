@@ -4,8 +4,9 @@ body{
     height: 100vh;
     width: 100vw;
     background: linear-gradient(135deg, #6b888b, #774f3b, #735343, #0b6dff);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    
+    /* background-size: 400% 400%;
+    animation: gradient 10s ease infinite; */
     }
     
     .content{

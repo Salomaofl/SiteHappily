@@ -1,0 +1,41 @@
+section.main{
+
+    /* background-image: url('Inserir\ um\ título.png'); */
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.main_cta{
+margin: 70px 0;
+width: 100%;
+text-align: center;
+}
+
+.main_cta h2{
+
+    color: #6b888b;
+    font-size: 40px;
+}
+
+.main_cta p{
+
+    color: #6b888b;
+    font-size: 19px;
+    margin: 10px ;
+}
+
+.main_cta button{
+
+    background-color: #6b888b;
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 0;
+    cursor: pointer;
+}
