@@ -6,12 +6,16 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-.center{
-max-width: 1100px;
-margin: 0 auto;
-padding: 0 2%;
-display: flex;
-flex-wrap: wrap;
+.center {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 768px) {
+      padding: 0 5px; /* Ajuste o valor conforme necessário para melhor se adequar ao seu layout em dispositivos móveis */
+  }
 }
 
 header{
